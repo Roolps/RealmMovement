@@ -1,0 +1,25 @@
+# Welcome to configuration for Realm Movement, extension for the Multiverse plugin
+# Please avoid manually altering this file where possible - any data loss due to
+# incorrect configuration syntax is the sole responsibility of the user
+
+# DO NOT TOUCH - value stored to show if the countdown is active
+status: false
+# DO NOT TOUCH - value stored to show the timestamp of the previous map change
+counter: 0
+# DO NOT TOUCH - value stored to show the index of current active map
+current-map: world
+
+# interval between switching maps, measured in minutes
+# to change this value run the command /rmov interval <time>
+map-interval: 10080
+
+# active maps to switch between, in a specific order
+# to add/remove maps from the plugin config run the respective command. mapname should
+# be exactly how the map is stored in the root directory - case sensitive, if it isn't
+# spelt correctly multiverse will throw an error and players won't be teleported
+# /rmov add <mapname>
+# /rmov remove <mapname>
+active-maps:
+  - world
+  - world_nether
+  - world_the_end

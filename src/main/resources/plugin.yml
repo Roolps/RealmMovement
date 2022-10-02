@@ -1,0 +1,9 @@
+name: RealmMovement
+version: '${project.version}'
+main: com.roolps.realmmovement.main
+api-version: 1.16
+commands:
+  rmov:
+    description: Main plugin command
+    usage: /rmov
+    permission: realmmovement.admin
